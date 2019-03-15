@@ -1,0 +1,55 @@
+img.card-img-top {
+  object-fit: contain;
+  width: 100%;
+  height: 250px;
+}
+.add-pic{
+  margin: 1rem auto;
+  display: block;
+  font-size: 2.25rem;
+  color: #607D8B;
+  border: solid 1px #ededed;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.add-pic:hover {
+  border: solid 1px;
+  box-shadow: 0 0 5px;
+  color:#333;
+}
+
+.card-deck .card {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: 1 0;
+  flex: 1 0;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 1.5rem;
+  margin-left: 15px;
+  -webkit-flex-basis: 25%;
+  flex-basis: 25%;
+  max-width: calc(25% - 2rem);
+}
+
+
+button.close {
+  border: solid 1px #ccc;
+  padding: 0 0 5px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: -1rem;
+  right: -1rem;
+  position: absolute;
+  background: #fff;
+  z-index: 9999999999;
+  opacity: 1;
+  outline: 0;
+}
